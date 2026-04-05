@@ -1,0 +1,41 @@
+#chatBody{
+    height: 85vh;
+    overflow-y: auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    /*border-bottom: 1px solid black; i test the edge of the body*/ 
+
+}
+.chatBubble {
+    max-width: 75%;
+    margin: 40px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px black;
+}
+
+.aiMsg {
+    background-color: #F3F4F4;
+    border-bottom-left-radius: 2px;
+}
+
+.userMsg {
+    background-color: #44ACFF;
+    color: white;
+    border-bottom-right-radius: 2px;
+}
+
+#sendBtn {
+    background-color: #44ACFF;
+    border:  none;
+}
+#sendBtn:hover{
+    background-color: #89D4FF;
+}
+#sendBtn:active{
+    background-color: #5478FF;
+}
+
+.icon{
+    color: white;
+}
