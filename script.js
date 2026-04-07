@@ -63,9 +63,7 @@ const botBubble = async (botText) => {
         try {
             const savingCon = await fetch("https://quan.json.compsci.cc/conversation/", {
                 method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
+
                 body: JSON.stringify({
                     userText: uLastestText,
                     botText: botAns
